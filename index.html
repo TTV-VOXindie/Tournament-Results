@@ -14,7 +14,7 @@
 			addColumnHeaders(tableElement);
 
 			for (var i = 0; i < data.length; i++) {
-				addDataRows(tableElement, data[i]);
+				addDataRows(tableElement, data[i], i + 1);
 			}
 		}
 
@@ -22,6 +22,7 @@
 		  var headerTr = $('<tr/>');
 		  
 		  var headerList = [
+		  "Rank",
 		  "Player",
 		  "Kills",
 		  "Assists",
@@ -41,12 +42,22 @@
 		  tableElement.append(headerTr);
 		}
 		
-		function addDataRows(tableElement, matchData)
+		function addDataRows(tableElement, matchData, rank)
 		{
 			for (var i = 0; i < matchData.length; i++) {
 				var data = matchData[i];
 				var tr = $('<tr/>');
-				tr.append($('<td/>').text(data.PlayerId));
+				if(i == 0)
+				{
+					tr.addClass("tableTopSeparator")
+					tr.append($('<td/>').text(rank));
+					tr.append($('<td/>').text(data.PlayerId));
+				}
+				else
+				{
+					tr.append($('<td/>'));
+					tr.append($('<td/>'));
+				}
 				tr.append(makeCell(data.Kills, data.KillScore));
 				tr.append(makeCell(data.Assists, data.AssistScore));
 				tr.append(makeCell(data.DamageDone, data.DamageDoneScore));
@@ -55,7 +66,7 @@
 				tr.append(makeCell(data.LongestStreak, data.LongestStreakScore));
 				tr.append(makeCell(data.TeamSurvivalTimeInMilliseconds, data.TeamSurvivalTimeInMillisecondsScore));
 				tr.append(makeCell(data.TeamPlacement, data.TeamPlacementScore));
-				tr.append($('<td/>').text(data.TotalScore));
+				tr.append($('<td/>').text(data.TotalScore).addClass("bold"));
 				tableElement.append(tr);
 			}
 		}
@@ -65,12 +76,9 @@
 			var td = $('<td/>');
 			
 			var valueSpan = $('<span/>').text(value);
-			var scoreSpan = $('<span/>').text(score);
-			
-			var br = $('<br/>');
+			var scoreSpan = $('<span/>').text(` (${score})`).addClass("text-secondary");
 			
 			td.append(valueSpan);
-			td.append(br);
 			td.append(scoreSpan);
 			
 			return td;
@@ -82,5 +90,6 @@
 			<table id="scoreTable" class="table table-dark">
 			</table>			
 		</div>
+		
 	</body>
 </html>
