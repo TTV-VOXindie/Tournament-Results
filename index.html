@@ -2,14 +2,11 @@
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://ttv-voxindie.github.io/Tournament-Results/style.css">
-	</head>
-	<body>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
 		<script>
 		$.getJSON("https://ttv-voxindie.github.io/Tournament-Results/data.json", function(data){
-		  
-		  
 		  buildTable($("#scoreTable"), data.Data);
-		  
 		});
 		
 		// Builds the HTML Table out of myList.
@@ -79,12 +76,11 @@
 			return td;
 		}
 		</script>
-		<div>
-		
-		<table id="scoreTable">
-		</table>
-		
-		
+	</head>
+	<body>
+		<div id="main" class="bg-dark">
+			<table id="scoreTable" class="table table-dark">
+			</table>			
 		</div>
 	</body>
 </html>
