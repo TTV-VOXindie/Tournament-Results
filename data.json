@@ -165,26 +165,6 @@
       },
       {
         "PlayerId": "VOXindie#4024440",
-        "Kills": 3.0,
-        "Assists": 0.0,
-        "DamageDone": 745.0,
-        "Executions": 0.0,
-        "Score": 2775.0,
-        "LongestStreak": 3.0,
-        "TeamSurvivalTimeInMilliseconds": 710976.0,
-        "TeamPlacement": 17.0,
-        "KillScore": 750,
-        "AssistScore": 0,
-        "DamageDoneScore": 745,
-        "ExecutionScore": 0,
-        "ScoreScore": 694,
-        "LongestStreakScore": 750,
-        "TeamSurvivalTimeInMillisecondsScore": 593,
-        "TeamPlacementScore": 0,
-        "TotalScore": 3532
-      },
-      {
-        "PlayerId": "VOXindie#4024440",
         "Kills": 1.0,
         "Assists": 0.0,
         "DamageDone": 598.0,
@@ -202,6 +182,26 @@
         "TeamSurvivalTimeInMillisecondsScore": 402,
         "TeamPlacementScore": 0,
         "TotalScore": 2363
+      },
+      {
+        "PlayerId": "VOXindie#4024440",
+        "Kills": 1.0,
+        "Assists": 0.0,
+        "DamageDone": 315.0,
+        "Executions": 0.0,
+        "Score": 525.0,
+        "LongestStreak": 1.0,
+        "TeamSurvivalTimeInMilliseconds": 349248.0,
+        "TeamPlacement": 33.0,
+        "KillScore": 250,
+        "AssistScore": 0,
+        "DamageDoneScore": 315,
+        "ExecutionScore": 0,
+        "ScoreScore": 132,
+        "LongestStreakScore": 250,
+        "TeamSurvivalTimeInMillisecondsScore": 292,
+        "TeamPlacementScore": 0,
+        "TotalScore": 1239
       }
     ]
   ]
