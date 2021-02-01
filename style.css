@@ -3,7 +3,7 @@
 	height: 100%;
 }
 
-.tableTopSeparator -> td
+.tableTopSeparator > td
 {
 	border-top: 1px solid black;
 }
