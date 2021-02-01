@@ -51,19 +51,25 @@
 				
 				var data = matchData[i];
 				var tr = $('<tr/>');
+				
+				if(isTotal)
+					tr.addClass("totalSeparator");
 				if(i == 0)
 				{
 					tr.addClass("tableTopSeparator")
 					tr.append($('<td/>').text(rank));
-					tr.append($('<td/>').text(data.PlayerId));
+					tr.append($('<td/>').text(data.PlayerId).addClass("borderRight"););
 				}
 				else
 				{
 					tr.append($('<td/>'));
-					tr.append($('<td/>'));
+					var playerTd = $('<td/>');
+					
+					if(!isTotal)
+						playerTd.addClass("borderRight")
+						
+					tr.append(playerTd);
 				}
-				
-				
 				
 				tr.append(makeCell(data.Kills, data.KillScore, isTotal));
 				tr.append(makeCell(data.Assists, data.AssistScore, isTotal));

@@ -17,3 +17,13 @@ td
 {
 	font-weight: bold;
 }
+
+.totalSeparator > td
+{
+	border-top: 1px solid gray !important;
+}
+
+.borderRight
+{
+	border-right: 1px solid gray !important;
+}
