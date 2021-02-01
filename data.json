@@ -125,6 +125,26 @@
     [
       {
         "PlayerId": "TTV_DONFATHER404#4730568",
+        "Kills": 10.0,
+        "Assists": 0.0,
+        "DamageDone": 4055.0,
+        "Executions": 0.0,
+        "Score": 5625.0,
+        "LongestStreak": 10.0,
+        "TeamSurvivalTimeInMilliseconds": 743000.0,
+        "TeamPlacement": 1.0,
+        "KillScore": 2500,
+        "AssistScore": 0,
+        "DamageDoneScore": 4055,
+        "ExecutionScore": 0,
+        "ScoreScore": 1407,
+        "LongestStreakScore": 2500,
+        "TeamSurvivalTimeInMillisecondsScore": 620,
+        "TeamPlacementScore": 2500,
+        "TotalScore": 13582
+      },
+      {
+        "PlayerId": "TTV_DONFATHER404#4730568",
         "Kills": 7.0,
         "Assists": 3.0,
         "DamageDone": 4224.0,
@@ -162,26 +182,6 @@
         "TeamSurvivalTimeInMillisecondsScore": 520,
         "TeamPlacementScore": 2250,
         "TotalScore": 12413
-      },
-      {
-        "PlayerId": "TTV_DONFATHER404#4730568",
-        "Kills": 9.0,
-        "Assists": 0.0,
-        "DamageDone": 3545.0,
-        "Executions": 0.0,
-        "Score": 4550.0,
-        "LongestStreak": 10.0,
-        "TeamSurvivalTimeInMilliseconds": 433488.0,
-        "TeamPlacement": 7.0,
-        "KillScore": 2250,
-        "AssistScore": 0,
-        "DamageDoneScore": 3545,
-        "ExecutionScore": 0,
-        "ScoreScore": 1138,
-        "LongestStreakScore": 2500,
-        "TeamSurvivalTimeInMillisecondsScore": 362,
-        "TeamPlacementScore": 1000,
-        "TotalScore": 10795
       },
       {
         "PlayerId": "TTV_DONFATHER404#4730568",
@@ -225,23 +225,23 @@
       },
       {
         "PlayerId": "TTV_DONFATHER404#4730568",
-        "Kills": 36.0,
+        "Kills": 37.0,
         "Assists": 6.0,
-        "DamageDone": 17084.0,
+        "DamageDone": 17594.0,
         "Executions": 0.0,
-        "Score": 23650.0,
+        "Score": 24725.0,
         "LongestStreak": 34.0,
-        "TeamSurvivalTimeInMilliseconds": 3267072.0,
-        "TeamPlacement": 16.0,
-        "KillScore": 9000,
+        "TeamSurvivalTimeInMilliseconds": 3576584.0,
+        "TeamPlacement": 10.0,
+        "KillScore": 9250,
         "AssistScore": 750,
-        "DamageDoneScore": 17084,
+        "DamageDoneScore": 17594,
         "ExecutionScore": 0,
-        "ScoreScore": 5914,
+        "ScoreScore": 6183,
         "LongestStreakScore": 8500,
-        "TeamSurvivalTimeInMillisecondsScore": 2726,
-        "TeamPlacementScore": 9750,
-        "TotalScore": 53724
+        "TeamSurvivalTimeInMillisecondsScore": 2984,
+        "TeamPlacementScore": 11250,
+        "TotalScore": 56511
       }
     ]
   ]

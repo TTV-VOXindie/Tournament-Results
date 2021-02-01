@@ -6,19 +6,19 @@
 		
 		<script>
 		$.getJSON("https://ttv-voxindie.github.io/Tournament-Results/data.json", function(data){
-		  buildTable($("#scoreTable"), data.Data);
+		  buildTable($("#scoreTable > thead"), $("#scoreTable > tbody"), data.Data);
 		});
 		
 		// Builds the HTML Table out of myList.
-		function buildTable(tableElement, data) {
-			addColumnHeaders(tableElement);
+		function buildTable(theadElement, tbodyElement, data) {
+			addColumnHeaders(theadElement);
 
 			for (var i = 0; i < data.length; i++) {
-				addDataRows(tableElement, data[i], i + 1);
+				addDataRows(tbodyElement, data[i], i + 1);
 			}
 		}
 
-		function addColumnHeaders(tableElement) {
+		function addColumnHeaders(theadElement) {
 		  var headerTr = $('<tr/>');
 		  
 		  var headerList = [
@@ -39,10 +39,10 @@
 			headerTr.append($('<th/>').html(headerList[i]));
 		  }
 		  
-		  tableElement.append(headerTr);
+		  theadElement.append(headerTr);
 		}
 		
-		function addDataRows(tableElement, matchData, rank)
+		function addDataRows(tbodyElement, matchData, rank)
 		{
 			for (var i = 0; i < matchData.length; i++) 
 			{
@@ -58,17 +58,12 @@
 				{
 					tr.addClass("tableTopSeparator")
 					tr.append($('<td/>').text(rank));
-					tr.append($('<td/>').text(data.PlayerId).addClass("borderRight"));
+					tr.append($('<td/>').text(data.PlayerId));
 				}
 				else
 				{
 					tr.append($('<td/>'));
-					var playerTd = $('<td/>');
-					
-					if(!isTotal)
-						playerTd.addClass("borderRight")
-						
-					tr.append(playerTd);
+					tr.append($('<td/>'));
 				}
 				
 				tr.append(makeCell(data.Kills, data.KillScore, isTotal));
@@ -79,8 +74,14 @@
 				tr.append(makeCell(data.LongestStreak, data.LongestStreakScore, isTotal));
 				tr.append(makeCell(data.TeamSurvivalTimeInMilliseconds, data.TeamSurvivalTimeInMillisecondsScore, isTotal));
 				tr.append(makeCell(data.TeamPlacement, data.TeamPlacementScore, isTotal));
-				tr.append($('<td/>').text(data.TotalScore).addClass("bold"));
-				tableElement.append(tr);
+				
+				var totalTd = $('<td/>').text(data.TotalScore);
+				
+				if(isTotal)
+					totalTd.addClass("bold");
+				
+				tr.append(totalTd);
+				tbodyElement.append(tr);
 			}
 		}
 		
@@ -92,7 +93,7 @@
 				td.addClass("bold");
 			
 			var valueSpan = $('<span/>').text(value);
-			var scoreSpan = $('<span/>').text(` (${score})`).addClass("text-secondary");
+			var scoreSpan = $('<span/>').text(` (${score} pts)`).addClass("text-secondary");
 			
 			td.append(valueSpan);
 			td.append(scoreSpan);
@@ -103,7 +104,9 @@
 	</head>
 	<body>
 		<div id="main" class="bg-dark">
-			<table id="scoreTable" class="table table-dark">
+			<table id="scoreTable" class="table table-striped table-dark">
+			<thead></thead>
+			<tbody></body>
 			</table>			
 		</div>
 		

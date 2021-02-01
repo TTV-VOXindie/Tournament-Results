@@ -3,7 +3,12 @@
 	height: 100%;
 }
 
-.tableTopSeparator > td
+th
+{
+	border-bottom: 1px solid black !important;
+}
+
+.tableTopSeparator > tbody > td
 {
 	border-top: 1px solid black !important;
 }
@@ -18,12 +23,7 @@ td
 	font-weight: bold;
 }
 
-.totalSeparator > td
+.totalSeparator > tbody > td
 {
 	border-top: 1px solid gray !important;
-}
-
-.borderRight
-{
-	border-right: 1px solid gray !important;
 }
