@@ -100,6 +100,26 @@
         "TeamSurvivalTimeInMillisecondsScore": 1055,
         "TeamPlacementScore": 750,
         "TotalScore": 11529
+      },
+      {
+        "PlayerId": "VOXindie#4024440",
+        "Kills": 44.0,
+        "Assists": 11.0,
+        "DamageDone": 18753.0,
+        "Executions": 0.0,
+        "Score": 54675.0,
+        "LongestStreak": 55.0,
+        "TeamSurvivalTimeInMilliseconds": 6539456.0,
+        "TeamPlacement": 20.0,
+        "KillScore": 11000,
+        "AssistScore": 1375,
+        "DamageDoneScore": 18753,
+        "ExecutionScore": 0,
+        "ScoreScore": 13671,
+        "LongestStreakScore": 13750,
+        "TeamSurvivalTimeInMillisecondsScore": 5452,
+        "TeamPlacementScore": 8750,
+        "TotalScore": 0
       }
     ],
     [
@@ -145,26 +165,6 @@
       },
       {
         "PlayerId": "TTV_DONFATHER404#4730568",
-        "Kills": 10.0,
-        "Assists": 2.0,
-        "DamageDone": 4271.0,
-        "Executions": 0.0,
-        "Score": 3600.0,
-        "LongestStreak": 8.0,
-        "TeamSurvivalTimeInMilliseconds": 371616.0,
-        "TeamPlacement": 6.0,
-        "KillScore": 2500,
-        "AssistScore": 250,
-        "DamageDoneScore": 4271,
-        "ExecutionScore": 0,
-        "ScoreScore": 900,
-        "LongestStreakScore": 2000,
-        "TeamSurvivalTimeInMillisecondsScore": 310,
-        "TeamPlacementScore": 1250,
-        "TotalScore": 11481
-      },
-      {
-        "PlayerId": "TTV_DONFATHER404#4730568",
         "Kills": 9.0,
         "Assists": 0.0,
         "DamageDone": 3545.0,
@@ -185,6 +185,26 @@
       },
       {
         "PlayerId": "TTV_DONFATHER404#4730568",
+        "Kills": 7.0,
+        "Assists": 1.0,
+        "DamageDone": 3155.0,
+        "Executions": 0.0,
+        "Score": 3575.0,
+        "LongestStreak": 5.0,
+        "TeamSurvivalTimeInMilliseconds": 700032.0,
+        "TeamPlacement": 3.0,
+        "KillScore": 1750,
+        "AssistScore": 125,
+        "DamageDoneScore": 3155,
+        "ExecutionScore": 0,
+        "ScoreScore": 894,
+        "LongestStreakScore": 1250,
+        "TeamSurvivalTimeInMillisecondsScore": 584,
+        "TeamPlacementScore": 2000,
+        "TotalScore": 9758
+      },
+      {
+        "PlayerId": "TTV_DONFATHER404#4730568",
         "Kills": 5.0,
         "Assists": 2.0,
         "DamageDone": 2333.0,
@@ -202,6 +222,26 @@
         "TeamSurvivalTimeInMillisecondsScore": 552,
         "TeamPlacementScore": 1500,
         "TotalScore": 7379
+      },
+      {
+        "PlayerId": "TTV_DONFATHER404#4730568",
+        "Kills": 39.0,
+        "Assists": 7.0,
+        "DamageDone": 17246.0,
+        "Executions": 0.0,
+        "Score": 25000.0,
+        "LongestStreak": 37.0,
+        "TeamSurvivalTimeInMilliseconds": 3214832.0,
+        "TeamPlacement": 18.0,
+        "KillScore": 9750,
+        "AssistScore": 875,
+        "DamageDoneScore": 17246,
+        "ExecutionScore": 0,
+        "ScoreScore": 6252,
+        "LongestStreakScore": 9250,
+        "TeamSurvivalTimeInMillisecondsScore": 2682,
+        "TeamPlacementScore": 9250,
+        "TotalScore": 0
       }
     ]
   ]

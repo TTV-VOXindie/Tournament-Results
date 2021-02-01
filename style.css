@@ -5,7 +5,7 @@
 
 .tableTopSeparator > td
 {
-	border-top: 1px solid black;
+	border-top: 1px solid black !important;
 }
 
 td 
