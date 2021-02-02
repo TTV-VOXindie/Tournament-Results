@@ -8,7 +8,7 @@ th
 	border-bottom: 1px solid black !important;
 }
 
-.tableTopSeparator > tbody > td
+.tableTopSeparator > td
 {
 	border-top: 1px solid black !important;
 }
@@ -23,7 +23,7 @@ td
 	font-weight: bold;
 }
 
-.totalSeparator > tbody > td
+.totalSeparator > td
 {
 	border-top: 1px solid gray !important;
 }
