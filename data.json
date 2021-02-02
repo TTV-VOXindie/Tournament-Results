@@ -9,17 +9,17 @@
         "Executions": 0.0,
         "Score": 0.0,
         "LongestStreak": 0.0,
-        "TeamSurvivalTimeInMilliseconds": 30960.0,
-        "TeamPlacement": 74.0,
+        "TeamSurvivalTimeInMilliseconds": 313008.0,
+        "TeamPlacement": 33.0,
         "KillScore": 0,
         "AssistScore": 0,
         "DamageDoneScore": 0,
         "ExecutionScore": 0,
         "ScoreScore": 0,
         "LongestStreakScore": 0,
-        "TeamSurvivalTimeInMillisecondsScore": 26,
+        "TeamSurvivalTimeInMillisecondsScore": 261,
         "TeamPlacementScore": 0,
-        "TotalScore": 26
+        "TotalScore": 261
       },
       {
         "PlayerId": "Cstraits#7019073",
@@ -40,6 +40,26 @@
         "TeamSurvivalTimeInMillisecondsScore": 26,
         "TeamPlacementScore": 0,
         "TotalScore": 26
+      },
+      {
+        "PlayerId": "Cstraits#7019073",
+        "Kills": 0.0,
+        "Assists": 0.0,
+        "DamageDone": 0.0,
+        "Executions": 0.0,
+        "Score": 0.0,
+        "LongestStreak": 0.0,
+        "TeamSurvivalTimeInMilliseconds": 343968.0,
+        "TeamPlacement": 107.0,
+        "KillScore": 0,
+        "AssistScore": 0,
+        "DamageDoneScore": 0,
+        "ExecutionScore": 0,
+        "ScoreScore": 0,
+        "LongestStreakScore": 0,
+        "TeamSurvivalTimeInMillisecondsScore": 287,
+        "TeamPlacementScore": 0,
+        "TotalScore": 287
       }
     ],
     [],
